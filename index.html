@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> HTML & CSS Assignment</title>
+    <title>HTML & CSS / Web Technologies Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+  <h1>BRUCE TUSHABE</h1>
 
 <!---Nav Bar-->
 
@@ -19,7 +21,7 @@
 
 <!--About me section-->
 
-<h1 id ="about">ABOUT ME</h1>
+<h2 id ="about">ABOUT ME</h2>
 
 <p>
 I am a highly motivated IT Engineer with notable skills in full-stack software development, database
@@ -45,7 +47,7 @@ and ability to customize it to meet arising needs.
 </p>
 
 <!--Academic achievements section -->
-<h1 id = "academic">MY ACADEMIC ACHIEVEMENTS</h1>
+<h2 id = "academic">MY ACADEMIC ACHIEVEMENTS</h2>
 
 <ul>
     <li>BSc Information Technology - Amity University India (2009 to 2012) </li>
@@ -54,7 +56,7 @@ and ability to customize it to meet arising needs.
   </ul>
 
 <!--Work experience section-->
-<h1 id="work">MY WORK EXPERIENCE</h1>
+<h2 id="work">MY WORK EXPERIENCE</h2>
 <p></p>
 <style>
     table, th, td {
@@ -85,7 +87,7 @@ and ability to customize it to meet arising needs.
   </table>
 
 <!--My Hobbies section-->
-<h1 id="hobbies">MY HOBBIES</h1>
+<h2 id="hobbies">MY HOBBIES</h2>
 <p>I love music and below is my favourite song</p>
 <audio controls>
     <source src="media/Orushozi.mp3" type="audio/mp3">
@@ -102,11 +104,26 @@ and ability to customize it to meet arising needs.
 <img src="media/walks.jpg" alt="Tushabe" width="500" height="333">
 
 <!--Contact me section-->
-<h1 id="contact">CONTACT ME</h1>
-<p></p>
+<h2 id="contact">CONTACT ME</h2>
+
+<p> Hey, you can contact us here</p>
+
 <form action="/action_page.php">
-    <input type="file" id="myFile" name="filename">
-    <input type="submit">
+  <label for="fname">Tell us your Name</label>
+  <input type="text" id="fname" name="fullname" placeholder="Your full name..">
+
+  <label for="email">Email</label>
+  <input type="text" id="demail" name="emailaddress" placeholder="Your Email ..">
+
+  <label for="subject">Message</label>
+  <input type="text" id="subject" name="subject"  placeholder="Share Your Message here..">
+  <p> Upload your files </p>
+  <input type="file" id="myFile" name="filename">
+  <input type="submit" value="Upload">
+
+  <input type="submit" value="Submit Form">
   </form>
+</div>
+
 <body>
 </html>
