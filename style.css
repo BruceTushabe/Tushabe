@@ -12,6 +12,7 @@
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+  
   }
   
   /* The color of links on hover */
@@ -22,7 +23,7 @@
   
   /* Active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
+    background-color: orange;
     color: white;
   }
 
@@ -31,6 +32,13 @@
   body {
     background-color: lightgray;
   }
+
+  body {
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    padding: 30px;
+}
   
   h1 {
     color: navy;
