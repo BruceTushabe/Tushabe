@@ -12,5 +12,4 @@ d.	A table with work experience
 e.	A section for hobbies that includes your favorite audio song, music video and any three photos of choice
 f.	A contact us form with file upload section.
 
-
 # Happy Coding
